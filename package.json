@@ -1,8 +1,10 @@
-{
-	"homepage": "https://mkwiecien00.github.io/disney-plus-clone/",
+﻿{
 	"name": "disney-plus-clone",
+	"description": "Disney Plus Clone Application",
+	"author": "XaLaNIX",
+	"homepage": "https://szymanskialan50-svg.github.io/disney-plus-clone/",
 	"private": true,
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"type": "module",
 	"scripts": {
 		"predeploy": "npm run build",

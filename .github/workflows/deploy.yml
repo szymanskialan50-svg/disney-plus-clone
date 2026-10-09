@@ -58,7 +58,9 @@ jobs:
         run: npm install --save-dev electron electron-builder
 
       - name: Package Windows EXE
-        run: npx electron-builder --win nsis --config.extraMetadata.main=electron-main.cjs --config.productName="DisneyPlusClone" --config.directories.output=release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx electron-builder --win nsis -c.publish=never --config.extraMetadata.main=electron-main.cjs --config.productName="DisneyPlusClone" --config.directories.output=release
 
       - name: Upload Windows EXE Artifact
         uses: actions/upload-artifact@v4
