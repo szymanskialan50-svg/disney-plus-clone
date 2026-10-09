@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
@@ -8,7 +8,7 @@ import ItemContainer from '@components/ui/ItemContainer'
 const CollectionGridItem = ({ item, index }) => {
 	return (
 		<Grid item key={index} xs={3} md={1}>
-			<Link to={`/disney-plus-clone/collection/${item.query}`}>
+			<Link to={`/collection/${item.query}`}>
 				<StyledItemContainer>
 					<img src={item.img} alt={item.title} loading='lazy' />
 					<video autoPlay loop muted playsInline>

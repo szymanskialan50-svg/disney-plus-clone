@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+﻿import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import Carousel from '@components/ui/Carousel'
 
@@ -18,7 +18,7 @@ const ImageSlider = () => {
 			<MotionContainer>
 				<StyledCarousel additionalSettings={sliderSettings}>
 					{slideImages.map((image, index) => (
-						<Link to={`/disney-plus-clone/${image.path}/${image.id}`} key={index}>
+						<Link to={`/${image.path}/${image.id}`} key={index}>
 							<StyledItemContainer key={index}>
 								<img src={image.img} alt={image.title} loading='lazy' />
 								<OverlayImage overlay={image.overlay} />

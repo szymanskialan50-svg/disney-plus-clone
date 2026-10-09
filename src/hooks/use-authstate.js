@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+﻿import { useEffect } from 'react'
 import { redirect } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 
@@ -21,7 +21,7 @@ const useAuthState = () => {
 				),
 					dispatch(fetchWatchListData({ user: authUser.uid }))
 
-				redirect('/disney-plus-clone/')
+				redirect('/')
 			}
 		})
 	}, [dispatch])

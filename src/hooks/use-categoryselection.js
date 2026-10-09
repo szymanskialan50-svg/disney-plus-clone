@@ -1,4 +1,4 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 
 const useCategorySelection = (type, initialCategory) => {
 	const storedCategory = localStorage.getItem(`selectedCategory_${type}`)

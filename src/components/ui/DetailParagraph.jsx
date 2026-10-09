@@ -1,9 +1,9 @@
-import styled from 'styled-components'
+﻿import styled from 'styled-components'
 
 const DetailParagraph = ({ releaseYear, numberOfSeasons, genres }) => {
 	return (
 		<InfoParagraph>
-			{releaseYear} {numberOfSeasons && (numberOfSeasons > 1 ? `• ${numberOfSeasons} Seasons` : '• 1 Season')} • {genres}
+			{releaseYear} {numberOfSeasons && (numberOfSeasons > 1 ? `â€˘ ${numberOfSeasons} Seasons` : 'â€˘ 1 Season')} â€˘ {genres}
 		</InfoParagraph>
 	)
 }

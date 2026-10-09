@@ -1,4 +1,4 @@
-export const detailsData = data => {
+﻿export const detailsData = data => {
 	let mainData = {
 		backdropUrl: '',
 		logoUrl: '',

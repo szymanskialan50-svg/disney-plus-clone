@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+﻿import { Link } from 'react-router-dom'
 import useNavigation from '@hooks/use-navigation'
 import { AppBar, Container, Toolbar, Box, Button, styled as styledMUI } from '@mui/material'
 
@@ -14,12 +14,12 @@ const MainNavigation = () => {
 		<StyledAppBar position='fixed'>
 			<StyledContainer>
 				<StyledToolbar disableGutters>
-					<Link to='/disney-plus-clone/'>
+					<Link to='/'>
 						<LogoBox component='img' src={disneyAppLogo} alt='Logo of Disney+ App' />
 					</Link>
 
 					{user === null && (
-						<Link to='/disney-plus-clone/signin'>
+						<Link to='/signin'>
 							<StyledButton variant='outlined'>GET STARTED</StyledButton>
 						</Link>
 					)}

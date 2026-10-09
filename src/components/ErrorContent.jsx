@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+﻿import styled from 'styled-components'
 
 import { MotionContainer } from '@components/ui/MotionContainer'
 import ErrorImg from '@images/error-img.png'

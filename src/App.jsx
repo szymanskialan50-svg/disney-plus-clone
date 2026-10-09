@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+﻿import { useState, useEffect } from 'react'
 import { RouterProvider } from 'react-router-dom'
 import { router } from '@utils/routes/router'
 import { QueryClientProvider } from '@tanstack/react-query'

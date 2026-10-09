@@ -1,4 +1,4 @@
-import { useQuery } from '@tanstack/react-query'
+﻿import { useQuery } from '@tanstack/react-query'
 
 import { fetchHomePageData } from '@utils/http/fetch-homepage-data'
 import ResourcesCarousel from '@components/ui/ResourcesCarousel'

@@ -1,4 +1,4 @@
-import { auth } from '@/firebase'
+﻿import { auth } from '@/firebase'
 import { useDispatch, useSelector } from 'react-redux'
 import { watchListActions } from '@store/slices/watchlist-slice'
 

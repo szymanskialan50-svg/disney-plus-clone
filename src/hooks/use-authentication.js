@@ -1,4 +1,4 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { userActions } from '@store/slices/user-slice'
@@ -14,7 +14,7 @@ const useAuthentication = () => {
 	const signIn = async data => {
 		try {
 			await signInWithEmailAndPassword(auth, data.email, data.password)
-			navigate('/disney-plus-clone/')
+			navigate('/')
 
 			localStorage.setItem('lastEnteredEmail', data.email)
 			localStorage.removeItem('signInEmail')
@@ -44,7 +44,7 @@ const useAuthentication = () => {
 				})
 			)
 
-			navigate('/disney-plus-clone/')
+			navigate('/')
 
 			localStorage.setItem('signInEmail', data.email)
 			localStorage.removeItem('signUpEmail')

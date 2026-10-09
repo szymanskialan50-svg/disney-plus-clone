@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+﻿import styled from 'styled-components'
 import Title from '@components/ui/Title'
 
 const CategorySelector = ({ type, selectedCategory, onChange, categoryOptions }) => {

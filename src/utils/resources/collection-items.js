@@ -1,4 +1,4 @@
-import collectionImgOne from '@images/collection/disney.jpg'
+﻿import collectionImgOne from '@images/collection/disney.jpg'
 import collectionImgTwo from '@images/collection/pixar.jpg'
 import collectionImgThree from '@images/collection/marvel.jpg'
 import collectionImgFour from '@images/collection/starwars.jpg'

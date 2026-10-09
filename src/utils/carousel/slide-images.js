@@ -1,4 +1,4 @@
-import imgSlideOne from '@images/slides/imgslide-1.jpg'
+﻿import imgSlideOne from '@images/slides/imgslide-1.jpg'
 import imgSlideTwo from '@images/slides/imgslide-2.jpg'
 import imgSlideThree from '@images/slides/imgslide-3.jpg'
 import imgSlideFour from '@images/slides/imgslide-4.jpg'

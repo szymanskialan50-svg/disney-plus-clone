@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+﻿import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 
@@ -66,7 +66,7 @@ const ResourcesCarousel = ({ data, isPending, isError }) => {
 									{category.data && (
 										<StyledCarousel additionalSettings={sliderSettings}>
 											{category.data.results.map((item, index) => (
-												<Link to={`/disney-plus-clone/${category.type}/${item.id}`} key={index}>
+												<Link to={`/${category.type}/${item.id}`} key={index}>
 													<DataContainer key={index}>
 														<img src={`https://image.tmdb.org/t/p/w500/${item.poster_path}`} alt={item.title || item.name} />
 													</DataContainer>

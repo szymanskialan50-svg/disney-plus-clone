@@ -1,4 +1,4 @@
-export const collectionInfo = {
+﻿export const collectionInfo = {
 	disney: {
 		fetchQuery: 'discover/movie?with_companies=2',
 		mediaType: 'movie',

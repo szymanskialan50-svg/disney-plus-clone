@@ -1,4 +1,4 @@
-import { BASE_URL, API_KEY } from '@utils/http/constants'
+﻿import { BASE_URL, API_KEY } from '@utils/http/constants'
 
 export const fetchDetailsFromId = async ({ signal, detailsId, resourceType }) => {
 	try {

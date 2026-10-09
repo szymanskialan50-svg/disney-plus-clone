@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+﻿import { useState, useEffect } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { auth } from '@/firebase'
@@ -13,17 +13,17 @@ const useNavigation = () => {
 	const signoutHandler = () => {
 		dispatch(userActions.signOutUser())
 		signOut(auth)
-		navigate('/disney-plus-clone/')
+		navigate('/')
 	}
 
 	const location = useLocation()
 
 	useEffect(() => {
-		if (!location.pathname.includes('/disney-plus-clone/movie/') && !location.pathname.includes('/disney-plus-clone/series/')) {
+		if (!location.pathname.includes('/movie/') && !location.pathname.includes('/series/')) {
 			localStorage.removeItem('searchQuery')
 		}
 
-		if (!location.pathname.includes('/disney-plus-clone/movie')) {
+		if (!location.pathname.includes('/movie')) {
 			Object.keys(localStorage).forEach(key => {
 				if (key.includes('selectedCategory_movie')) {
 					localStorage.removeItem(key)
@@ -31,7 +31,7 @@ const useNavigation = () => {
 			})
 		}
 
-		if (!location.pathname.includes('/disney-plus-clone/series')) {
+		if (!location.pathname.includes('/series')) {
 			Object.keys(localStorage).forEach(key => {
 				if (key.includes('selectedCategory_series')) {
 					localStorage.removeItem(key)

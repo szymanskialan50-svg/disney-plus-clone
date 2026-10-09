@@ -1,4 +1,4 @@
-import { createBrowserRouter } from 'react-router-dom'
+﻿import { createHashRouter } from 'react-router-dom'
 import { ProtectedRoutes } from '@utils/routes/protected-routes'
 
 import RootLayout from '@pages/Root'
@@ -14,9 +14,9 @@ import MyListPage from '@pages/MyList'
 import SignInPage from '@pages/SignIn'
 import SignUpPage from '@pages/SignUp'
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
 	{
-		path: '/disney-plus-clone/',
+		path: '/',
 		element: <RootLayout />,
 		errorElement: <ErrorPage />,
 		children: [

@@ -1,4 +1,4 @@
-import { redirect } from 'react-router-dom'
+﻿import { redirect } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { useIdleTimer } from 'react-idle-timer'
 
@@ -12,7 +12,7 @@ const useIdle = () => {
 	const onIdle = () => {
 		dispatch(userActions.signOutUser())
 		signOut(auth)
-		redirect('/disney-plus-clone/')
+		redirect('/')
 	}
 
 	useIdleTimer({

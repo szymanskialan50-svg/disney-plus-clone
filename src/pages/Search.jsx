@@ -1,4 +1,4 @@
-import { useQuery } from '@tanstack/react-query'
+﻿import { useQuery } from '@tanstack/react-query'
 import useSearchQuery from '@hooks/use-searchquery'
 import { fetchDataFromQuery } from '@utils/http/fetch-data-from-query'
 

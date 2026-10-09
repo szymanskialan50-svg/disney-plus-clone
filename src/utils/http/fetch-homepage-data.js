@@ -1,4 +1,4 @@
-import { categories } from '@utils/http/constants'
+﻿import { categories } from '@utils/http/constants'
 
 export const fetchHomePageData = async ({ signal }) => {
 	const fetchCategoryData = async () => {

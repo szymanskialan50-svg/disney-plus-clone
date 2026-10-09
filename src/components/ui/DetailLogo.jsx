@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+﻿import styled from 'styled-components'
 
 const DetailLogo = ({ data, logo }) => {
 	return <Logo>{logo ? <img src={logo} alt={`Logo image of ${data.title}`} /> : <h1>{data.title}</h1>}</Logo>

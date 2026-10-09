@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+﻿import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { styled as styledMUI } from '@mui/system'
 
@@ -9,7 +9,7 @@ const ErrorTextContainer = () => {
 		<Container>
 			<h1>OOPS! PAGE NOT FOUND.</h1>
 			<p>You must have picked the wrong door because we have not been able to lay our eyes on the page you are searching for.</p>
-			<Link to='/disney-plus-clone/'>
+			<Link to='/'>
 				<StyledButton variant='contained'>BACK TO HOME</StyledButton>
 			</Link>
 		</Container>

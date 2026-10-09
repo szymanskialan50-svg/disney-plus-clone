@@ -1,4 +1,4 @@
-import useWatchList from '@hooks/use-watchlist'
+﻿import useWatchList from '@hooks/use-watchlist'
 
 import styled from 'styled-components'
 import Container from '@components/ui/Container'
@@ -16,7 +16,7 @@ const MyListPage = () => {
 				<Wrapper>
 					{resourceArray.length > 0 && <GridContainer movies={resourceArray} />}
 					{resourceArray.length === 0 && (
-						<InfoParagraph>{`Your watch list is empty. Why don't you add something in here? 💫`}</InfoParagraph>
+						<InfoParagraph>{`Your watch list is empty. Why don't you add something in here? đź’«`}</InfoParagraph>
 					)}
 				</Wrapper>
 			</OpacityMotionContainer>

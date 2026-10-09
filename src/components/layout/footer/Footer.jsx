@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+﻿import styled from 'styled-components'
 
 import disneyLogo from '@images/disney-logo.svg'
 
@@ -10,7 +10,7 @@ const Footer = () => {
 			<Wrapper>
 				<StyledLogo src={disneyLogo} alt='Logo of Disney+ App'></StyledLogo>
 				<StyledParagraph>
-					&copy; {currentYear}, coded by <a href='https://github.com/mkwiecien00'>Małgorzata Kwiecień</a>
+					&copy; {currentYear}, coded by <a href='https://github.com/mkwiecien00'>MaĹ‚gorzata KwiecieĹ„</a>
 				</StyledParagraph>
 			</Wrapper>
 		</StyledFooter>
